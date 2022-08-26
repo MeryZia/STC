@@ -27,6 +27,8 @@ import com.example.STCSpringBoot.Service.Impl.CustomUserDetailsServiceImpl;
 		securedEnabled = true,
 		jsr250Enabled = true,
 		prePostEnabled = true)
+
+
 public class SecutiryConfig extends WebSecurityConfigurerAdapter {
 	
 	private final CustomUserDetailsServiceImpl customUserDetailsService;
